@@ -1,0 +1,30 @@
+body {
+    color: rgb(255, 255, 255);
+}
+
+.logo-row {
+  background-color: rgb(255, 255, 255);
+}
+
+.dark-rows {
+  background-color: rgb(56, 56, 56);
+}
+.carousel-module {
+    background-color: rgb(49, 49, 49);
+}
+
+.page-middle {
+    background-image: url('../assets/BG.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.footer-module-top {
+    background-color: rgb(56, 56, 56);
+}
+
+.footer-module-bottom {
+    background-color: rgb(63, 63, 63);
+}
+
+p

@@ -1,17 +1,423 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/fontello.css">
-    <link rel="stylesheet" href="css/stylesheet.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/fontello.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
 </head>
+
 <body>
-    
-    <script src="js/bootstrap.js"></script>
-    <script src="js/main.js"></script>
+  <!-- Container-fluid wrapper -->
+  <div class="container-fluid">
+    <!-- Nav bar module-->
+    <!-- <nav class="row navbar navbar-default"> -->
+    <!-- <div class="container-fluid"> -->
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <nav class="row navbar-header logo-row">
+      <div class="col-md-3">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <img class="navbar-brand" src="assets/Upper-logo.png" alt="nortsea logo">
+      </div>
+      <!-- </div> -->
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="col-md-9 dark-rows">
+        <div class="row top-row">
+          <div class="col-md-2">
+            <p><i class="demo-icon icon-email-outline"></i><span>info@hellohelp.com</span></p>
+          </div>
+          <div class="col-md-2">
+            <p><i class="demo-icon icon-phone"></i><span>+440 875369208</span></p>
+          </div>
+          <div class="col-md-2">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Log-in">
+              <span class="input-group-btn">
+                  <button class="btn btn-default"><i class="demo-icon icon-right-open"></i></button>
+              </span>
+            </div>
+            <!-- /input-group -->
+          </div>
+          <div class="col-md-2">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="EN">
+              <span class="input-group-btn">
+                  <!-- <button class="btn btn-default"><i class="demo-icon icon-down-open"></i></button> -->
+                  <a href="#" class="dropdown-toggle btn btn-default" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="demo-icon icon-down-open"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">SP</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                  </ul>
+              </span>
+            </div>
+            <!-- /input-group -->
+          </div>
+          <div class="col-md-2">
+            <div class="row">
+              <a href="https://www.facebook.com"><i class="demo-icon icon-facebook-box"></i></a>
+              <a href="https://twitter.com"><i class="demo-icon icon-twitter"></i></a>
+              <a href="https://www.instagram.com"><i class="demo-icon icon-instagram"></i></a>
+              <a href="mailto:info@hellohelp.com"><i class="demo-icon icon-mail-1"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row bottom-row collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">About Us</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </li>
+            </li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+            <form class="navbar-form navbar-left">
+              <!-- <div class="form-group">
+                                <input type="text" class="navbar-toggle collapsed form-control" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" placeholder="Search">
+                            </div> -->
+              <button type="submit" class="btn btn-default"><i class="demo-icon icon-search"></i></button>
+            </form>
+          </ul>
+        </div>
+      </div>
+      <!-- /.navbar-collapse -->
+    </nav>
+    <!-- /.container-fluid -->
+    <!-- </nav>    -->
+    <!-- Jumbotron/carousel module -->
+    <div class="row carousel-module">
+      <div class="col-md-10">
+        <h2>35% Sale</h2>
+        <h1>YOU ENTER SUMMER WITH REFRESHING RATES</h1>
+        <p><a class="btn btn-default btn-lg" href="#" role="button">Explore It</a></p>
+        <img src="assets/vertical-indicators.png" alt="Indicator dots">
+      </div>
+      <div class="col-md-2">
+        <img src="assets/weather-card.png" alt="Weather card icon">
+        <img src="assets/gallery.png" alt="Gallery icon">
+        <img src="assets/360-virtual-tour.png" alt="Panorama icon">
+      </div>
+    </div>
+    <!-- Reservation module -->
+    <div class="row page-middle">
+      <p><i class="demo-icon icon-hospital"></i><span></span>Hotel</p>
+      <div class="col-md-2">
+        <p>Arrival</p>
+        <input type="date" placeholder="16.07.2015"><i class="demo-icon icon-calendar"></i>
+      </div>
+      <div class="col-md-2">
+        <p>Going</p>
+        <input type="date" placeholder="28.07.2015"><i class="demo-icon icon-calendar"></i>
+      </div>
+      <div class="row">
+        <div class="col-md-5">
+          <div class="col-md-3">
+            <p>Room</p>
+            <!-- Split button -->
+            <div class="btn-group">
+              <button type="button" class="btn btn-default">Room</button>
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span><i class="demo-icon icon-down-open"></i></span>
+                                <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+              <ul class="dropdown-menu">
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <p>Person</p>
+            <!-- Split button -->
+            <div class="btn-group">
+              <button type="button" class="btn btn-default">Person</button>
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span><i class="demo-icon icon-down-open"></i></span>
+                  <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <p>Child</p>
+            <div class="btn-group">
+              <button type="button" class="btn btn-default">Child</button>
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span><i class="demo-icon icon-down-open" style="margin-right: -5%"></i></span>
+                  <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <p>Day</p>
+            <div class="btn-group">
+              <button type="button" class="btn btn-default">Day</button>
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span><i class="demo-icon icon-down-open"></i></span>
+                  <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+                <li><a href="#">7</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1 btn-group">
+        <button type="button" class="btn btn-default">Search Book</button>
+      </div>
+    </div>
+    <!-- Travel info module -->
+    <div class="row">
+      <div class="col-md-3">
+        <img src="assets/suitcase-icon.png" alt="Suitcase icon">
+        <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+        <button class="btn btn-default">Read More<i class="demo-icon icon-right-open"></i></button>
+      </div>
+      <div class="col-md-3">
+        <img src="assets/map-icon.png" alt="Map icon">
+        <p>Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+        <button class="btn btn-default">Read More<i class="demo-icon icon-right-open"></i></button>
+      </div>
+      <div class="col-md-3">
+        <img src="assets/globe-icon.png" alt="Globe icon">
+        <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+        <button class="btn btn-default">Read More<i class="demo-icon icon-right-open"></i></button>
+      </div>
+      <div class="col-md-3">
+        <img src="assets/messaging-icon.png" alt="Messaging icon">
+        <p>Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+        <button class="btn btn-default">Read More<i class="demo-icon icon-right-open"></i></button>
+      </div>
+    </div>
+    <!-- About hotel module -->
+    <div class="row">
+      <h2>About Hotel</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+    </div>
+    <!-- About hotel grid array module -->
+    <div class="row">
+      <div class="col-md-4">
+        <h4>RESTAURANT &amp; BANQUETS</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+        <button class="btn btn-default">Read More<i class="demo-icon icon-right-open"></i></button>
+      </div>
+      <div class="col-md-4">
+        <h4>ROOMS</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+        <button class="btn btn-default">Read More<i class="demo-icon icon-right-open"></i></button>
+      </div>
+      <div class="col-md-4">
+        <h4>Bar</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+        <button class="btn btn-default">Read More<i class="demo-icon icon-right-open"></i></button>
+      </div>
+      <div class="w-100"></div>
+      <div class="col-md-4">
+        <h4>Gym</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+        <button class="btn btn-default">Read More<i class="demo-icon icon-right-open"></i></button>
+      </div>
+      <div class="col-md-4">
+        <h4>Spa</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+        <button class="btn btn-default">Read More<i class="demo-icon icon-right-open"></i></button>
+      </div>
+      <div class="col-md-4">
+        <h4>Car parking</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+        <button class="btn btn-default">Read More<i class="demo-icon icon-right-open"></i></button>
+      </div>
+    </div>
+    <!-- News module -->
+    <div class="row">
+      <div class="col-md-6">
+        <div class="row">
+          <h3>News<img src="assets/indicator-dots.png" alt="Indicator dots"></h3>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="assets/Jan-29.png" alt="Calendar icon">
+          </div>
+          <div class="col-md-6">
+            <h4>Lorem İpsum dolar sit amet</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
+            <button class="btn btn-default">Read More<i class="demo-icon icon-right-open"></i></button>
+          </div>
+        </div>
+        <div class="w-100"></div>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="assets/Feb-15.png" alt="Calendar icon">
+          </div>
+          <div class="col-md-6">
+            <h4>Lorem İpsum dolar sit amet</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
+            <button class="btn btn-default">Read More<i class="demo-icon icon-right-open"></i></button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="assets/Mar-2.png" alt="Calendar icon">
+          </div>
+          <div class="col-md-6">
+            <h4>Lorem İpsum dolar sit amet</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
+            <button class="btn btn-default">Read More<i class="demo-icon icon-right-open"></i></button>
+          </div>
+        </div>
+        <div class="row">
+          <button class="btn btn-default">View All<i class="demo-icon icon-right-open"></i></button>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div class="col-md-12">
+          <h3>Announcements<img src="assets/indicator-dots.png" alt="Indicator dots"></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p>
+          <button class="btn btn-default">Read More<i class="demo-icon icon-right-open"></i></button>
+          <hr>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p>
+          <button class="btn btn-default">Read More<i class="demo-icon icon-right-open"></i></button>
+        </div>
+        <div class="col-md-12">
+          <h3>Products</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+          <button class="btn btn-default">Read More<i class="demo-icon icon-right-open"></i></button>
+        </div>
+      </div>
+    </div>
+    <!-- Footer module -->
+    <div class="row footer-module-top">
+      <div class="col-md-3">
+        <h3>NortSea About</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+        <button class="btn btn-default">Read More<i class="demo-icon icon-right-open"></i></button>
+      </div>
+      <div class="col-md-3">
+        <h3>NortSea Hotel</h3>
+        <h5>About Us</h5>
+        <h5>Services</h5>
+        <h5>Contact</h5>
+      </div>
+      <div class="col-md-4">
+        <h3>Contact Us</h3>
+        <div class="row">
+          <div class="col-md-1">
+            <i class="demo-icon icon-location"></i>
+          </div>
+          <div class="col-md-2">
+            <p>Address: </p>
+          </div>
+          <div class="col-md-9">
+            <p>1100 Pico Blvd<br> Santa Monica, CA 90405<br> United States
+            </p>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-md-1">
+            <i class="demo-icon icon-phone"></i>
+          </div>
+          <div class="col-md-2">
+            <p>Phone: </p>
+          </div>
+          <div class="col-md-9">
+            <p>+440 1233123208</p>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-md-1">
+            <i class="demo-icon icon-paper-plane"></i>
+          </div>
+          <div class="col-md-2">
+            <p>Email: </p>
+          </div>
+          <div class="col-md-9">
+            <p>support@nortsea.com</p>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-md-1">
+            <i class="demo-icon icon-compass"></i>
+          </div>
+          <div class="col-md-2">
+            <p>GPS: </p>
+          </div>
+          <div class="col-md-9">
+            <p>12.021211-118.469009</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <img src="assets/bottom-logo.png" alt="NortSea logo">
+      </div>
+    </div>
+    <!-- Post-footer module -->
+    <div class="row footer-module-bottom">
+      <p>Copyright © 2015 NORTSEA | About NORTSEA | Contact Support</p>
+      <p>Designed by Fatih34</p>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.7/jquery.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/main.js"></script>
 </body>
+
 </html>
